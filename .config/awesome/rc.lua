@@ -335,7 +335,7 @@ globalkeys = gears.table.join(
               {description = "run prompt", group = "launcher"}),
 
 	    -- browser
-	    awful.key({ modkey },            "b",     function ()
+	    awful.key({ modkey },            "w",     function ()
 		 awful.util.spawn('google-chrome-stable') end,
 		      {description = "run prompt", group = "launcher"}),
 	    -- File Manager
@@ -402,7 +402,8 @@ globalkeys = gears.table.join(
 	    {},
 	    'XF86MonBrightnessUp',
 	    function()
-	      awful.spawn('brightnessctl set +5%')
+	     -- awful.spawn('brightnessctl set +5%')
+         awful.spawn('xbacklight +5%')  -- for ubuntu
 	    end,
 	    {description = '+5%', group = 'hotkeys'}
 	  ),
@@ -410,7 +411,8 @@ globalkeys = gears.table.join(
 	    {},
 	    'XF86MonBrightnessDown',
 	    function()
-	      awful.spawn('brightnessctl set 5%-')
+	    --  awful.spawn('brightnessctl set 5%-')
+        awful.spawn('xbacklight -5%') -- for ubuntu 
 	    end,
 	    {description = '-5%', group = 'hotkeys'}
 	  ),
