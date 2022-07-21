@@ -221,8 +221,8 @@ ctrl + alt + a
 #################################################################
 
 #Wallpaper trash
-alt + t
-    variety -t
+#alt + t
+#    variety -t
 
 #Wallpaper next
 alt + n
@@ -235,6 +235,10 @@ alt + p
 #Wallpaper favorite
 alt + f
     variety -f
+
+#Walpaper random
+alt + r
+    randomwall # feh --randomize --bg-fill ~/.wallpapers/*
 
 #Wallpaper previous
 #alt + Left
