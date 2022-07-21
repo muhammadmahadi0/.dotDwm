@@ -1,0 +1,8 @@
+Arch Linux repository mirrorlist
+## Filtered by mirror score from mirror status page
+## Generated on 2022-07-01
+##
+
+## Bangladesh
+Server = http://mirror.xeonbd.com/archlinux/$repo/os/$arch
+
