@@ -1,5 +1,5 @@
-# .dotArch
-Dotfiles of my Arch and Dynamic Window Manager aka DWM.
+# .dotDwm
+Dotfiles of my Dynamic Window Manager aka DWM.
 
 # tap to click problem on laptop
 go to this website to fix tap to click problem on linux.
